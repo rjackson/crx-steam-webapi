@@ -1,0 +1,23 @@
+{
+  "name": "Steam WebAPI",
+  "version": "2",
+  "manifest_version": 2,
+
+  "description": "A simple index for the WebAPI methods available to your Steam ID",
+  "homepage_url": "http://download.0x9d.com/chrome/",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+    },
+
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "http://api.steampowered.com/"
+  ]
+}
